@@ -154,8 +154,7 @@ main p {
 
 aside ul {
     list-style: none;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    columns: 2;
 }
 
 aside ul li::before {
